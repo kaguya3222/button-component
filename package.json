@@ -1,0 +1,24 @@
+{
+  "name": "button-component-react",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaguya3222/button-component.git"
+  },
+  "author": "kaguya3222",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaguya3222/button-component/issues"
+  },
+  "homepage": "https://github.com/kaguya3222/button-component#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}
