@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { Button } from "./Button";
+import { Button } from './Button';
 
 export default {
-  title: "Button",
+  title: 'Button',
   component: Button,
 } as ComponentMeta<typeof Button>;
 
@@ -40,10 +40,10 @@ export const Icons: ComponentStory<typeof Button> = () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: "12px",
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '12px',
       }}
     >
       <Button startIcon={<span className="material-icons">face</span>}>
@@ -63,10 +63,10 @@ export const Size: ComponentStory<typeof Button> = () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: "12px",
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '12px',
       }}
     >
       <Button size="sm">Small</Button>
@@ -80,10 +80,10 @@ export const Colors: ComponentStory<typeof Button> = () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: "12px",
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '12px',
       }}
     >
       <Button color="default">Default</Button>
